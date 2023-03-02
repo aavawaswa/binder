@@ -1,0 +1,20 @@
+body{
+    background: greenyellow;
+}
+.seleccionado{
+    background: indigo;
+    color: lightseagreen;
+    
+
+}
+.boton{
+    background: lightseagreen;
+    color: indigo;
+    text-decoration: none;
+    padding: 10px;
+
+}
+a{
+    margin-right: 10px;
+    
+}
