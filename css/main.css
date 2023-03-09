@@ -18,3 +18,9 @@ a{
     margin-right: 10px;
     
 }
+.seccion{
+    width: 320px;
+    height: 500px;
+    border: solid 1px;
+    padding: 30px;
+}
