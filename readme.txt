@@ -1,3 +1,12 @@
+integrantes 
+
+
+
+Links
+
+
+
+
 formatos acceptablesde imagenes
 .jpg
 .png
