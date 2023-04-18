@@ -1,10 +1,10 @@
-# integrantes 
+# integrantes. 
 
-  ## Sebastian Tirado Perez
-  ## Andres Arango Velez
-  ## Sebastian Segovia Medina
+  ## Sebastian Tirado Perez.
+  ## Andres Arango Velez.
+  ## Sebastian Segovia Medina.
 
-# Links
+# Links.
 
 
 
