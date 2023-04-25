@@ -31,7 +31,7 @@ main {
   height: calc(70vh - 100px);
   max-height: calc(100vh - 100px);
   padding: 70px;
-  background-image: url('https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg');
+  background-image: ('imagenes/fondo.png');
   background-size: cover;
 }
 section {
@@ -171,4 +171,5 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
 }
