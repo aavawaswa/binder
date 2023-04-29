@@ -1,6 +1,6 @@
 # integrantes. 
 
-  ## Sebastian Tirado Perez.
+  ## Sebastián Tirado Pérez.
   ## Andres Arango Velez.
   ## Sebastian Segovia Medina.
 
