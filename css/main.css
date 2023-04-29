@@ -1,5 +1,5 @@
 /*tablet*/
-@media only screen and (min-width: 541px) and (max-width: 1024px)
+@media only screen and (min-width: 541px)
 {
 body {
 	font-family: Arial, sans-serif;
@@ -86,7 +86,8 @@ footer {
 }
 }
 /*Celular*/
-@media only screen and (min-width: 220px) and (max-width: 540px){
+@media only screen and (min-width: 220px) and (max-width: 540px)
+{
   body {
   font-family: Arial, sans-serif;
   margin: 0;
