@@ -35,8 +35,8 @@
     justify-content: center;
     height: calc(70vh - 100px);
     max-height: calc(100vh - 100px);
-    padding: 70px;
-    background-image: ('https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg');
+    padding: 82px;
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg');
     background-size: cover;
   }
   section
@@ -135,7 +135,7 @@
     justify-content: center;
     height: calc(70vh - 100px);
     max-height: calc(100vh - 100px);
-    padding: 50px;
+    padding: 82px;
     background-image: url('https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg');
     background-size: cover;
   }
