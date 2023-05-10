@@ -6,6 +6,11 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(../imagenes/background.jpg);
+    background-repeat: repeat;
+    background-color: #ffffff;
+    background-size: 50%;
+    overflow-y: hidden;
   }
   header
   {
@@ -43,9 +48,7 @@
     height: calc(70vh - 100px);
     max-height: calc(100vh - 100px);
     padding: 82px;
-    background-image: url(../imagenes/fondo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+   
   }
   section
   {
@@ -104,7 +107,7 @@
     width: 200px;
     height: 50px;
     font-size: 20px;
-    background-color: #4CAF50;
+    background-color:  #467d86;
     color: #fff;
     }
   footer
@@ -128,6 +131,11 @@
     padding: 0;
     min-height: 100vh;
     position: relative;
+    background-image: url(../imagenes/background.jpg);
+    background-repeat: repeat;
+    background-color: #ffffff;
+    background-size: 50%;
+    overflow-y: hidden;
   }
   header
   {
@@ -176,8 +184,7 @@
     height: calc(70vh - 100px);
     max-height: calc(100vh - 100px);
     padding: 82px;
-    background-image: url(../imagenes/fondo.png);
-    background-size: 100%;
+
   }
   section
   {
@@ -223,7 +230,7 @@
     width: 200px;
     height: 50px;
     font-size: 20px;
-    background-color: #4CAF50;
+    background-color:  #467d86;
     color: #fff;
   }
   footer

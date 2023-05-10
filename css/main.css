@@ -3,9 +3,9 @@
 {
   body
   {
-    background-image: url(../imagenes/fondo.png);
-    background-repeat: no-repeat;
-    background-color: #94d4f5;
+    background-image: url(../imagenes/background.jpg);
+    background-repeat: repeat;
+    background-color: #ffffff;
     background-size: 50%;
     overflow-y: hidden;
   }
@@ -21,7 +21,9 @@
   
   h1
   {
-    margin: 20px 0 0 0;
+    font-family: Arial, sans-serif;
+    margin: 10px 10px 10px 10px;
+    
     text-align: center;
   }
   h2
@@ -57,10 +59,24 @@
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.8rem;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #467d86;
+    color: #ffffff;
     border: none;
   }
+}
+section
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9eac0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  max-width: 300px;
 }
 
 /*Celular*/
@@ -68,9 +84,10 @@
 {
   body
   {
-    background-image: url(../imagenes/fondo.png);
-    background-repeat: no-repeat;
-    background-size: 100% 280%;
+    background-image: url(../imagenes/background.jpg);
+    background-repeat: repeat;
+    background-color: #ffffff;
+    background-size: 50%;
     overflow-y: hidden;
   }
   
@@ -85,6 +102,7 @@
   
   h1
   {
+    font-family: Arial, sans-serif;
     margin: 20px 0 0 0;
     text-align: center;
   }
@@ -111,8 +129,21 @@
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.8rem;
-    background-color: #4CAF50;
+    background-color:  #467d86;
     color: white;
     border: none;
+  }
+  section
+  {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9eac0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    max-width: 300px;
   }
 }
