@@ -59,7 +59,7 @@
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.8rem;
-    background-color: #467d86;
+    background-color: #f85524;
     color: #ffffff;
     border: none;
   }
@@ -103,7 +103,8 @@ section
   h1
   {
     font-family: Arial, sans-serif;
-    margin: 20px 0 0 0;
+    margin: 10px 10px 10px 10px;
+    
     text-align: center;
   }
 
@@ -129,12 +130,13 @@ section
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.8rem;
-    background-color:  #467d86;
+    background-color:  #f85524;
     color: white;
     border: none;
   }
   section
   {
+    margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 10px;
