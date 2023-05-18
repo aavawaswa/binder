@@ -90,13 +90,19 @@
     </section>
   </section>
   
-  <footer class="task-bar">
-    <ul>
-      <li><a href="ajustes.html"><img src="https://github.com/aavawaswa/binder/blob/main/imagenes/settings.png?raw=true" alt="Item 1"></a></li>
-        <li><a href="perfildelotro.html"><img src="https://github.com/aavawaswa/binder/blob/main/imagenes/home.png?raw=true" alt="Item 2"></a></li>
-        <li><a href="chats.html"><img src="https://github.com/aavawaswa/binder/blob/main/imagenes/chat.png?raw=true" alt="Item 3"></a></li>
-        <li><a href="tuperfil.html"><img src="https://github.com/aavawaswa/binder/blob/main/imagenes/user.png?raw=true" alt="Item 4"></a></li>
-    </ul>
-  </footer>
+ <footer class="task-bar">
+  <ul>
+    <li><a href="#" onclick="goToPage('ajustes.html')"><img src="https://raw.githubusercontent.com/aavawaswa/binder/main/imagenes/settings.png" alt="Item 1"></a></li>
+    <li><a href="#" onclick="goToPage('perfildelotro.html')"><img src="https://raw.githubusercontent.com/aavawaswa/binder/main/imagenes/home.png" alt="Item 2"></a></li>
+    <li><a href="#" onclick="goToPage('chats.html')"><img src="https://raw.githubusercontent.com/aavawaswa/binder/main/imagenes/chat.png" alt="Item 3"></a></li>
+    <li><a href="#" onclick="goToPage('tuperfil.html')"><img src="https://raw.githubusercontent.com/aavawaswa/binder/main/imagenes/user.png" alt="Item 4"></a></li>
+  </ul>
+</footer>
+
+<script>
+  function goToPage(page) {
+    window.location.href = page;
+  }
+</script>
 </body>
 </html>
