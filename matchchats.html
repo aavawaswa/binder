@@ -1,21 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
-</head>
-<body>
-    <h1>Lista de Chats</h1>
-    <!--<a href="paginaprincipal.html" class="boton" id="btn_home">Binder</a>
-    <a href="tuperfil.html" class="boton" id="btn_registro">tu perfil</a>
-    <a href="ajustes.html" class="boton" id="btn_Perfil">ajustes</a>-->
-    <a href="chats.html" class="boton" id="btn_login">Chats</a>
-    <a href="perfildelotro.html">Perfil del otro</a>
-    <a href="tuperfil.html">tu perfil</a>
-    <a href="ajustes.html">ajustes</a>
-    <a href="paginaprincipal.html">Binder</a>
-
-</body>
-</html>
+<html>
+    <head>
+        <title>Menú de Chats</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="container">
+                <h1>Menú de Chats</h1>
+                <ul class="chat-list">
+                    <a href="chats.html">
+                        <li class="active">
+                            <img src="avatar1.jpg" class="avatar" alt="Avatar">
+                            <div class="chat-info">
+                                <h2>Chat 1</h2>
+                                <p>Último mensaje del chat 1</p>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="chat2.html">
+                        <li>
+                            <img src="avatar2.jpg" class="avatar" alt="Avatar">
+                            <div class="chat-info">
+                                <h2>Chat 2</h2>
+                                <p>Último mensaje del chat 2</p>
+                            </div>
+                        </li>
+                    </a>
+                    <!-- Agrega más elementos <a> según sea necesario -->
+                </ul>
+                <p class="no-conversations">No hay más conversaciones disponibles.</p>
+            </div>
+            <footer class="task-bar">
+                <ul>
+                    <li><a href="settings.html"><img src="https://github.com/aavawaswa/binder/blob/main/imagenes/settings.png?raw=true" alt="Item 1"></a></li>
+                    <li><a href="home.html"><img src="https://github.com/aavawaswa/binder/blob/main/imagenes/home.png?raw=true" alt="Item 2"></a></li>
+                    <li><a href="chat.html"><img src="https://github.com/aavawaswa/binder/blob/main/imagenes/chat.png?raw=true" alt="Item 3"></a></li>
+                    <li><a href="user.html"><img src="https://github.com/aavawaswa/binder/blob/main/imagenes/user.png?raw=true" alt="Item 4"></a></li>
+                </ul>
+            </footer>
+            </body>
+        </html>
