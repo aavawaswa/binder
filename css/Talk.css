@@ -1,0 +1,142 @@
+header {
+  background-color: #f1f1f1;
+  padding: 0;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.chat-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.chat-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.chat-messages {
+  margin-bottom: 20px;
+}
+.message {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.message-avatar {
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.message-avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+.message-content {
+  flex-grow: 1;
+  background-color: #f2f2f2;
+  padding: 8px;
+  border-radius: 5px;
+}
+.sent .message-content {
+  background-color: #dcf8c6;
+  text-align: right;
+}
+.sent .message-avatar {
+  order: 1;
+  margin-left: 0;
+  margin-right: 0;
+}
+.chat-input input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.chat-input button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.chat-input button:hover {
+  background-color: #45a049;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 0px;
+  text-align: center;
+}
+.task-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.task-bar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.task-bar li {
+  margin-right: 10px;
+}
+
+.task-bar li:last-child {
+  margin-right: 0;
+}
+
+.task-bar a {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.task-bar img {
+  margin-right: 5px;
+  margin-left: 5px;
+  max-height: 20px;
+}
+
+.task-bar a:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .task-bar {
+    height: 50px;
+    margin: 0;
+  }
+  
+  .task-bar a {
+    padding: 10px;
+  }
+  
+  .task-bar img {
+    max-height: 20px;
+  }
+}
