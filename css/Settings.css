@@ -1,4 +1,4 @@
-/* Estilos General */
+/* Estilos tablet */
 header {
   background-color: #f1f1f1;
   padding: 0;
@@ -104,59 +104,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-footer {
-  background-color: #f1f1f1;
-  padding: 5px;
-  text-align: center;
-}
 
-.task-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: #333;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.task-bar ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-}
-
-.task-bar li {
-  margin-right: 10px;
-}
-
-.task-bar li:last-child {
-  margin-right: 0;
-}
-
-.task-bar a {
-  background-color: #444;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-}
-
-.task-bar img {
-  margin-right: 5px;
-  margin-left: 5px;
-  max-height: 20px;
-}
-
-.task-bar a:hover {
-  background-color: #555;
-}
 
 /* Estilos Celular */
 @media (max-width: 767px) {
@@ -174,50 +122,129 @@ footer {
   }
 
   .task-bar {
-    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
-
+  
   .task-bar ul {
-    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
   }
-
-  .task-bar a {
-    padding: 5px;
-    font-size: 12px;
+  
+  .task-bar li {
+    margin-right: 10px;
+    background-color: #444;
   }
-
-  .task-bar img {
+  
+  .task-bar li:last-child {
     margin-right: 0;
-    margin-left: 0;
-    max-height: 15px;
+  }
+  
+  .task-bar a {
+    background-color: #444;
+    color: #444;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-bar img {
+    margin-right: 5px;
+    margin-left: 5px;
+    max-height: 20px;
+  }
+  
+  .task-bar a:hover {
+    background-color: #555;
   }
 }
 
 /* Estilos para tabletas */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) {
   .config-menu {
     padding: 15px;
   }
   
   .task-bar {
-    height: 70px;
+    position: fixed;
+    bottom: 0;
+    left:  0;
+    background-color: #333;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60;
+    padding-top: 0px;
+  }
+  .task-bar li {
+    margin-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+   
   }
   
-  .task-bar a {
-    padding: 8px;
-    font-size: 14px;
+  .task-bar li:last-child {
+    margin-right: 0;
+  
+  
   }
+  .task-bar a {
+    background-color: #444;
+    color: #444;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .task-bar b {
+    background-color: #fa2828;
+    color: #444;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    }
+  
+  
+  .task-bar a:hover {
+    background-color: #555;
+  }
+ 
   
   .task-bar img {
-    max-height: 18px;
+    max-height: 40px;
+    align-items: center;
+
   }
+
+  
+.task-bar ul {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-/* Estilos Escritorio */
-@media (min-width: 768px) {
-  header {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-  }
 }
+
+
+
