@@ -121,6 +121,7 @@ img {
     max-width: 350px;
   }
   
+  /* Ocultar el encabezado en tabletas */
   header {
     display: none;
   }
