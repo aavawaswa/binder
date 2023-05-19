@@ -1,124 +1,97 @@
-.user-profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.user-schedule {
-  margin-top: 20px;
-}
-
-.user-schedule table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.user-schedule th, .user-schedule td {
-  padding: 8px;
-  border: 1px solid #ccc;
-}
-
-.user-description {
-  margin-top: 20px;
-}
-
-.header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-}
-
-.container {
-  max-width: 800px;
-  margin: 80px auto 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.header img {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-}
-
-.header h1 {
-  margin: 0;
-}
-
-footer {
-  background-color: #f1f1f1;
-  padding: 5px;
-  text-align: center;
-}
-
-.task-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: #333;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.task-bar ul {
-  list-style: none;
-  display: flex;
+body{
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  justify-content: center;
 }
 
-.task-bar li {
-  margin-right: 10px;
-}
-
-.task-bar li:last-child {
-  margin-right: 0;
-}
-
-.task-bar a {
-  background-color: #444;
+.desktop-header {
+  background-color: #333;
   color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0px;
   display: flex;
   align-items: center;
 }
 
-.task-bar img {
-  margin-right: 5px;
-  margin-left: 5px;
-  max-height: 20px;
+.desktop-header img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
 }
 
-.task-bar a:hover {
+.desktop-header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  text-align: center;
+}
+
+section h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+section button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+section button:hover {
   background-color: #555;
 }
 
-@media (max-width: 768px) {
-  .task-bar {
-    height: 50px;
-    margin: 0;
+@media only screen and (max-width: 768px) {
+  
+  .desktop-header {
+    display: none;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: inline-block;
+    max-width: 500px;
+    background-color: #f9eac0;
+    border-radius: 10px;
   }
   
-  .task-bar a {
-    padding: 10px;
+@media screen and (max-width: 480px) {
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
   }
   
-  .task-bar img {
-    max-height: 20px;
+  .desktop-header, section h1,
+  section h2
+  {
+    display: none;
+  }
+  
+  section button {
+    width: 200px;
+    margin: 10px auto;
+    display: block;
   }
 }
