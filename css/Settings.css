@@ -1,8 +1,10 @@
+/* Estilos General */
 header {
   background-color: #f1f1f1;
   padding: 0;
   text-align: center;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -10,6 +12,7 @@ body {
   height: 100vh;
   margin: 0;
 }
+
 .config-menu {
   background-color: #f0f0f0;
   padding: 20px;
@@ -20,6 +23,10 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.option span {
+  margin-right: 10px;
 }
 
 .switch {
@@ -77,6 +84,19 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+.button {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #2196F3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #007BFF;
 }
 
 h2 {
@@ -138,17 +158,66 @@ footer {
   background-color: #555;
 }
 
-@media (max-width: 768px) {
+/* Estilos Celular */
+@media (max-width: 767px) {
+  .config-menu {
+    padding: 10px;
+  }
+
+  .option {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .option span {
+    margin-bottom: 5px;
+  }
+
   .task-bar {
-    height: 50px;
-    margin: 0;
+    height: 80px;
+  }
+
+  .task-bar ul {
+    justify-content: space-around;
+  }
+
+  .task-bar a {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .task-bar img {
+    margin-right: 0;
+    margin-left: 0;
+    max-height: 15px;
+  }
+}
+
+/* Estilos para tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .config-menu {
+    padding: 15px;
+  }
+  
+  .task-bar {
+    height: 70px;
   }
   
   .task-bar a {
-    padding: 10px;
+    padding: 8px;
+    font-size: 14px;
   }
   
   .task-bar img {
-    max-height: 20px;
+    max-height: 18px;
+  }
+}
+
+/* Estilos Escritorio */
+@media (min-width: 768px) {
+  header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
   }
 }
