@@ -1,0 +1,223 @@
+/* Estilos General */
+header {
+  background-color: #f1f1f1;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.config-menu {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option span {
+  margin-right: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.button {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #2196F3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #007BFF;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 5px;
+  text-align: center;
+}
+
+.task-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.task-bar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.task-bar li {
+  margin-right: 10px;
+}
+
+.task-bar li:last-child {
+  margin-right: 0;
+}
+
+.task-bar a {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.task-bar img {
+  margin-right: 5px;
+  margin-left: 5px;
+  max-height: 20px;
+}
+
+.task-bar a:hover {
+  background-color: #555;
+}
+
+/* Estilos Celular */
+@media (max-width: 767px) {
+  .config-menu {
+    padding: 10px;
+  }
+
+  .option {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .option span {
+    margin-bottom: 5px;
+  }
+
+  .task-bar {
+    height: 80px;
+  }
+
+  .task-bar ul {
+    justify-content: space-around;
+  }
+
+  .task-bar a {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .task-bar img {
+    margin-right: 0;
+    margin-left: 0;
+    max-height: 15px;
+  }
+}
+
+/* Estilos para tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .config-menu {
+    padding: 15px;
+  }
+  
+  .task-bar {
+    height: 70px;
+  }
+  
+  .task-bar a {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .task-bar img {
+    max-height: 18px;
+  }
+}
+
+/* Estilos Escritorio */
+@media (min-width: 768px) {
+  header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+}

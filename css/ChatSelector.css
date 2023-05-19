@@ -1,0 +1,129 @@
+.page-container {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.chat-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chat-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.chat-list li:hover {
+  background-color: #e5e5e5;
+}
+
+.chat-list li.active {
+  background-color: #ccc;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-info {
+  flex: 1;
+}
+
+.no-conversations {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 0px;
+  text-align: center;
+}
+.task-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.task-bar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.task-bar li {
+  margin-right: 10px;
+}
+
+.task-bar li:last-child {
+  margin-right: 0;
+}
+
+.task-bar a {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.task-bar img {
+  margin-right: 5px;
+  margin-left: 5px;
+  max-height: 20px;
+}
+
+.task-bar a:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .task-bar {
+    height: 50px;
+    margin: 0;
+  }
+  
+  .task-bar a {
+    padding: 10px;
+  }
+  
+  .task-bar img {
+    max-height: 20px;
+  }
+}
