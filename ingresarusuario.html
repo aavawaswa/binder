@@ -9,18 +9,18 @@
 	<body>
 		<header>
 			<img src="imagenes/binderlogo.png" alt="Logo de la página">
-			<h1>Binder</h1>
 		</header>
 		<main>
 			<section>
-				<form>
+				<form action="procesar.php" method="POST">
 					<label for="username">Nombre de usuario:</label>
 					<input type="text" id="username" name="username">
 					
 					<label for="password">Contraseña:</label>
 					<input type="password" id="password" name="password">
+					
+					<button type="submit">Iniciar</button>
 				</form>
-				<button onclick="location.href='paginaprincipal.html'" >Iniciar</button>
 				<button onclick="location.href='crearoiniciar.html'" >Atras</button>
 			</section>
 		</main>
