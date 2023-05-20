@@ -88,16 +88,6 @@ table tr:hover {
 }
 
 /* Estilos para el pie de página */
-footer {
-  position: fixed left;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #444;
-  padding: 0px;
-  text-align: center;
-}
-
 .task-bar {
   position: fixed;
   bottom: 0;
@@ -146,6 +136,15 @@ footer {
 .task-bar a:hover {
   background-color: #555;
 }
+.task-bar b {
+  background-color: #fa2828;
+  color: #444;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  }
 }
 /*tablet*/
 @media only screen and (min-width: 541px) 
