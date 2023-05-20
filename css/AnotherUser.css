@@ -1,5 +1,5 @@
 /*celular*/
-@media only screen and (max-width: 540px) 
+@media only screen and (max-width: 720px)
 {
   .user-profile {
     font-family: Arial, sans-serif;
@@ -190,7 +190,8 @@
     }
 }
 /*tablet*/
-@media only screen and (min-width: 541px){
+@media only screen and (min-width: 721px)
+{
   
   header {
     background-color: #f1f1f1;
@@ -279,68 +280,68 @@
     background-color: #f5f5f5;
   }
   
-  
-  
-.task-bar {
-  position: fixed;
-  bottom: 0;
-  left:  0;
-  background-color: #333;
-  height:100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60;
-  padding-top: 0px;
-}
-.task-bar li {
-  margin-right: 10px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 
 
-}
+  .task-bar {
+    position: fixed;
+    bottom: 0;
+    left:  0;
+    background-color: #333;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60;
+    padding-top: 0px;
+  }
+  .task-bar li {
+    margin-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
 
-.task-bar a {
-  background-color: #444;
-  color: #444;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-}
-.task-bar b {
-  background-color: #fa2828;
-  color: #444;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
   }
 
 
-.task-bar a:hover {
-  background-color: #555;
-}
+  .task-bar a {
+    background-color: #444;
+    color: #444;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .task-bar b {
+    background-color: #fa2828;
+    color: #444;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    }
 
 
-.task-bar img {
-  max-height: 40px;
+  .task-bar a:hover {
+    background-color: #555;
+  }
+
+
+  .task-bar img {
+    max-height: 40px;
+    align-items: center;
+
+  }
+
+
+  .task-bar ul {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+  justify-content: center;
   align-items: center;
 
-}
-
-
-.task-bar ul {
-list-style: none;
-
-margin: 0;
-padding: 0;
-justify-content: center;
-align-items: center;
-
-}
+  }
 }
