@@ -1,5 +1,5 @@
 /* Estilos tablet */
-/* Estilos Celular */
+
 @media only screen and (max-width: 540px) {
   header {
     background-color: #f1f1f1;
@@ -164,9 +164,7 @@
     background-color: #444;
   }
   
-  .task-bar li:last-child {
-    margin-right: 0;
-  }
+
   
   .task-bar a {
     background-color: #444;
@@ -335,11 +333,7 @@
    
   }
   
-  .task-bar li:last-child {
-    margin-right: 0;
-  
-  
-  }
+
   .task-bar a {
     background-color: #444;
     color: #444;
