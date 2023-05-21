@@ -1,0 +1,79 @@
+/* Estilos Tablet */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../imagenes/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #F4D35E;
+}
+
+form {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.button-section button {
+  padding: 10px 20px;
+  width: 150px;
+  background-color: #F95738;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.button-section button:hover {
+  background-color: #45a049;
+}
+
+.section-title {
+  text-align: center;
+}
+
+/* Estilos Celular */
+@media only screen and (max-width: 768px) {
+  main {
+    max-width: 300px;
+  }
+  
+  .button-section {
+    flex-direction: column;
+  }
+  
+  .button-section button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
