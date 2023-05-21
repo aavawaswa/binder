@@ -5,6 +5,18 @@
     padding: 0;
     text-align: center;
   }
+  @font-face {
+    font-family: 'Advent-pro';
+    src: url('../fonts/advent-pro/adventpro-regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/rubik/Rubik-Medium.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
   body {
     display: flex;
     justify-content: center;
@@ -49,7 +61,7 @@
   }
   .column p {
     word-wrap: normal;
-    font-family: Arial, sans-serif;
+    
   }
   .table-container {
     text-align: center;
@@ -58,7 +70,7 @@
   table {
     width: 100%;
     border-collapse: collapse;
-    font-family: Arial, sans-serif;
+   
   }
   table th,
   table td {
@@ -136,6 +148,18 @@
     padding: 0;
     text-align: center;
   }
+  @font-face {
+    font-family: 'Advent-pro';
+    src: url('../fonts/advent-pro/adventpro-regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/rubik/Rubik-Medium.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
   body {
     display: flex;
     justify-content: center;
@@ -180,7 +204,7 @@
   }
   .column p {
     word-wrap: normal;
-    font-family: Arial, sans-serif;
+    
   }
   .table-container {
     text-align: center;
@@ -189,7 +213,7 @@
   table {
     width: 100%;
     border-collapse: collapse;
-    font-family: Arial, sans-serif;
+   
   }
   table th,
   table td {
