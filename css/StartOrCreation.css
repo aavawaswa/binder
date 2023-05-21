@@ -24,11 +24,21 @@ body{
 }
 
 main {
+  text-align: center;
   padding: 20px;
 }
 
 section {
   text-align: center;
+  
+  
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: inline-block;
+    max-width: 500px;
+    background-color: #F4D35E;
+    border-radius: 10px;
+  
 }
 
 section h1 {
@@ -42,7 +52,7 @@ section h2 {
 }
 
 section button {
-  background-color: #333;
+  background-color: #F95738;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -53,7 +63,7 @@ section button {
 }
 
 section button:hover {
-  background-color: #555;
+  background-color: #fa7055;
 }
 
 @media only screen and (max-width: 768px) {
@@ -71,7 +81,7 @@ section button:hover {
     padding: 20px;
     display: inline-block;
     max-width: 500px;
-    background-color: #f9eac0;
+    background-color: #F4D35E;
     border-radius: 10px;
   }
   
@@ -95,5 +105,6 @@ section button:hover {
     margin: 10px auto;
     display: block;
   }
+  
 }
 }
