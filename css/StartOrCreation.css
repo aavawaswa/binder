@@ -2,6 +2,7 @@ body{
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #fff8d8;
 }
 
 .desktop-header {
@@ -94,4 +95,5 @@ section button:hover {
     margin: 10px auto;
     display: block;
   }
+}
 }
