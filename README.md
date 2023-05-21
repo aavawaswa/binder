@@ -14,7 +14,7 @@
   ## Wireframe Escritorio : https://www.figma.com/file/W2VNaRntSyEBxgrABJGfvc/Wireframe?type=design&node-id=254-250&t=9aqE1t8j4zmrmoHB-0
   ## Prototipo Escritorio : https://www.figma.com/proto/W2VNaRntSyEBxgrABJGfvc/Wireframe?type=design&node-id=254-256&scaling=min-zoom&page-id=254%3A250&starting-point-node-id=254%3A256&show-proto-sidebar=1
   ## Github.io :  https://aavawaswa.github.io/binder/
-
+  ## Presentacion del proyecto: https://youtu.be/rwe-WF8nnaE
 
 
 
