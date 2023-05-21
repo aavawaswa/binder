@@ -1,11 +1,15 @@
 @media only screen and (min-width: 541px) 
 {
+body{
+  background-color: #fff8d8;
+}
 .page-container {
   
   border: 2px solid #ccc;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
+  background-color: #fff8d8;
 }
 @font-face {
   font-family: 'Advent-pro';
@@ -40,7 +44,7 @@ h1 {
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: #f2f2f2;
+  background-color: #F4D35E;
   border-bottom: 1px solid #ccc;
   cursor: pointer;
   border-radius: 10px;
@@ -51,7 +55,7 @@ h1 {
 }
 
 .chat-list li.active {
-  background-color: #ccc;
+  background-color: #F4D35E;
 }
 
 .avatar {
@@ -76,7 +80,7 @@ h1 {
     position: fixed;
     bottom: 0;
     left:  0;
-    background-color: #333;
+    background-color: #EE964B;
     height:100%;
     display: flex;
     align-items: center;
@@ -94,7 +98,7 @@ h1 {
   
 
   .task-bar a {
-    background-color: #444;
+    background-color: #F95738;
     color: #444;
     text-decoration: none;
     padding: 10px;
@@ -103,7 +107,7 @@ h1 {
     align-items: center;
   }
   .task-bar b {
-    background-color: #fa2828;
+    background-color: #F4D35E;
     color: #444;
     text-decoration: none;
     padding: 10px;
@@ -114,7 +118,7 @@ h1 {
   
   
   .task-bar a:hover {
-    background-color: #555;
+    background-color: #fa7055;
   }
  
   
@@ -139,6 +143,9 @@ h1 {
 /*celular*/
 @media only screen and (max-width: 540px)
 {
+  body{
+    background-color: #fff8d8;
+  }
   .page-container {
     font-family: Arial, sans-serif;
     border: 2px solid #ccc;
@@ -188,7 +195,7 @@ h1 {
   }
   
   .chat-list li.active {
-    background-color: #ccc;
+    background-color: #F4D35E;
   }
   
   .avatar {
@@ -222,7 +229,7 @@ h1 {
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: #333;
+    background-color: #EE964B;
     height: 60px;
     display: flex;
     align-items: center;
@@ -240,19 +247,20 @@ h1 {
   
   .task-bar li {
     margin-right: 10px;
-    background-color: #444;
+   
   }
   
   
   
   .task-bar a {
-    background-color: #444;
-    color: #444;
+    background-color: #F95738;
+   
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
     display: flex;
     align-items: center;
+    
   }
   
   .task-bar img {
@@ -262,10 +270,10 @@ h1 {
   }
   
   .task-bar a:hover {
-    background-color: #555;
+    background-color: #fa7055;
   }
   .task-bar b {
-    background-color: #fa2828;
+    background-color: #F4D35E;
     color: #444;
     text-decoration: none;
     padding: 10px;

@@ -3,13 +3,30 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url(../imagenes/background.jpg);
+
   background-repeat: repeat;
   background-color: #fff8d8;
   background-size: 50%;
   overflow-y: hidden;
 }
-
+@font-face {
+  font-family: 'Advent-pro';
+  src: url('../fonts/advent-pro/adventpro-regular.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/rubik/Rubik-Medium.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Advent-semibold';
+  src: url('../fonts/advent-pro/adventpro-semibold.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 main {
   max-width: 600px;
   margin: 20px auto;
@@ -77,5 +94,23 @@ input[type="password"] {
   .button-section button {
     width: 100%;
     margin-bottom: 10px;
+  }
+  @font-face {
+    font-family: 'Advent-pro';
+    src: url('../fonts/advent-pro/adventpro-regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/rubik/Rubik-Medium.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Advent-semibold';
+    src: url('../fonts/advent-pro/adventpro-semibold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
   }
 }

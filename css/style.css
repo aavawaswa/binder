@@ -132,6 +132,8 @@
     font-size: 20px;
     background-color:  #F95738;
     color: #fff;
+    border-radius: 5px;
+    border-color: #F95738;
     }
     button:hover {
       background-color:  #fa7055;
@@ -279,6 +281,8 @@
     font-size: 20px;
     background-color:  #F95738;
     color: #fff;
+    border-radius: 5px;
+    border-color: #F95738;
   }
   button:hover {
     background-color:  #fa7055;

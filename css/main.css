@@ -6,7 +6,24 @@ body {
   background-color: #fff8d8;
  
 }
-
+@font-face {
+  font-family: 'Advent-pro';
+  src: url('../fonts/advent-pro/adventpro-regular.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/rubik/Rubik-Medium.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Advent-semibold';
+  src: url('../fonts/advent-pro/adventpro-semibold.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 section {
   text-align: center;
   margin-top: 50px;

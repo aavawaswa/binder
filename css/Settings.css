@@ -6,7 +6,25 @@
     padding: 0;
     text-align: center;
   }
-  
+  @font-face {
+    font-family: 'Advent-pro';
+    src: url('../fonts/advent-pro/adventpro-regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/rubik/Rubik-Medium.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Advent-semibold';
+    src: url('../fonts/advent-pro/adventpro-semibold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
   body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -14,7 +32,7 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-   
+    background-color:  #fff8d8;
     margin: 0;
   }
   
@@ -95,7 +113,7 @@
   .button {
     display: inline-block;
     padding: 8px 12px;
-    background-color: #2196F3;
+    background-color: #F95738 ;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -103,7 +121,7 @@
   }
   
   .button:hover {
-    background-color: #007BFF;
+    background-color: #fa7055;
   }
   
   h2 {
@@ -125,7 +143,7 @@
     align-self: center;
   }
   .config-menu {
-    background-color: #f0f0f0;
+    background-color: #EE964B;
     padding: 20px;
     border-radius: 5px;
   }
@@ -143,7 +161,7 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: #333;
+    background-color: #EE964B;
     height: 60px;
     display: flex;
     align-items: center;
@@ -162,12 +180,13 @@
   .task-bar li {
     margin-right: 10px;
     background-color: #444;
+    border-radius: 5px;
   }
   
 
   
   .task-bar a {
-    background-color: #444;
+    background-color: #F95738;
     color: #444;
     text-decoration: none;
     padding: 10px;
@@ -183,10 +202,10 @@
   }
   
   .task-bar a:hover {
-    background-color: #555;
+    background-color: #fa7055;
   }
   .task-bar b {
-    background-color: #fa2828;
+    background-color: #F4D35E;
     color: #444;
     text-decoration: none;
     padding: 10px;
@@ -199,11 +218,28 @@
 /* Estilos para tabletas */
 @media only screen and (min-width: 541px)  {
   header {
-    background-color: #f1f1f1;
+    background-color: #fff8d8;
     padding: 0;
     text-align: center;
   }
-  
+  @font-face {
+    font-family: 'Advent-pro';
+    src: url('../fonts/advent-pro/adventpro-regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/rubik/Rubik-Medium.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Advent-semibold';
+    src: url('../fonts/advent-pro/adventpro-semibold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
   body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -211,12 +247,12 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-   
+   background-color: #fff8d8 ;
     margin: 0;
   }
   
   .config-menu {
-    background-color: #f0f0f0;
+    background-color: #EE964B;
     padding: 20px;
     border-radius: 5px;
     
@@ -292,7 +328,7 @@
   .button {
     display: inline-block;
     padding: 8px 12px;
-    background-color: #2196F3;
+    background-color: #F95738;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -300,7 +336,7 @@
   }
   
   .button:hover {
-    background-color: #007BFF;
+    background-color: #fa7055;
   }
   
   h2 {
@@ -317,7 +353,7 @@
     position: fixed;
     bottom: 0;
     left:  0;
-    background-color: #333;
+    background-color: #ee984b;
     height:100%;
     display: flex;
     align-items: center;
@@ -335,7 +371,7 @@
   
 
   .task-bar a {
-    background-color: #444;
+    background-color: #F95738;
     color: #444;
     text-decoration: none;
     padding: 10px;
@@ -344,7 +380,7 @@
     align-items: center;
   }
   .task-bar b {
-    background-color: #fa2828;
+    background-color: #f4d35e;
     color: #444;
     text-decoration: none;
     padding: 10px;
