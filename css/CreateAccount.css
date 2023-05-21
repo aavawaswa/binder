@@ -4,8 +4,10 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(../imagenes/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-color: #fff8d8;
+  background-size: 50%;
+  overflow-y: hidden;
 }
 
 main {
